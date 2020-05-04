@@ -63,7 +63,6 @@ Il y a aussi les caractères :
 - `Œ` = <kbd>AltGr + O</kbd>
 - `æ` = <kbd>AltGr + a</kbd>
 - `Æ` = <kbd>AltGr + A</kbd>
-- `ß` = <kbd>AltGr + s</kbd> (pas utile en français, mais utile en allemand)
 
 ## Fichiers présents dans ce dépôt
 
