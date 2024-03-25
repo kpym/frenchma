@@ -9,7 +9,7 @@ Ce dépôt contient des drivers modifiés du clavier standard français AZERTY p
 - rajoute les touches `œ`, `Œ`, `æ` et `Æ`.
 
 
-Pour faire cela j'ai utilisé le logiciel libre de Microsoft [Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=22339).
+Pour faire cela j'ai utilisé le logiciel libre de Microsoft [Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=102134).
 
 **Avertissement :** l'application Microsoft Keyboard Layout Creator date de 2007. Elle fonctionne encore parfaitement et fonctionne sous Windows 10, mais il peut arriver que vous rencontriez un bogue.
 
@@ -17,7 +17,7 @@ Pour faire cela j'ai utilisé le logiciel libre de Microsoft [Keyboard Layout Cr
 
 ## Comment j'ai fait
 
-Dans [Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=22339) :
+Dans [Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=102134) :
 
 1. J'ai fait `File` » `Load Existing Keyboard...` » `French`.
 2. J'ai modifié la partie <kbd>Shift</kbd>,<kbd>Alt+Ctrl (AltGr)</kbd> ainsi :
@@ -44,7 +44,7 @@ Vous pouvez trouver l'instillation du driver dans la page des [releases](https:/
 
 ### En générant l'installation vous-même
 
-1. Vous installez [Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=22339).
+1. Vous installez [Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=102134).
 2. Vous récupérez le code source du clavier [FrenchMA.klc](FranchMA.klc).
 3. Vous générez les fichiers d'installation avec `Projects` » `Build DLL and Setup Package`.
 4. Vous procédez à l'installation comme décrit plus haut.
@@ -67,6 +67,6 @@ Il y a aussi les caractères :
 ## Fichiers présents dans ce dépôt
 
 - `FranchMA.klc` : le fichier source du clavier AZERTY modifié
-- `FrenchMA.log` : le log généré par [Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=22339) pour `FranchMA.klc`.
+- `FrenchMA.log` : le log généré par [Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=102134) pour `FranchMA.klc`.
 - `Franch.klc` : le fichier source du clavier AZERTY standard
-- `French.log` : le log généré par [Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=22339) pour `Franch.klc`.
+- `French.log` : le log généré par [Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=102134) pour `Franch.klc`.
